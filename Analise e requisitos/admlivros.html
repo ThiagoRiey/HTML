@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+  <script src="https://kit.fontawesome.com/3a5a990658.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Bibliotec</title>
+</head>
+<body>
+  <header>
+    <div class="distancia">
+      <div class="logo"><img src="livros/imagem_2024-04-28_165558349.png"></div>
+      <div class="menu">
+        <nav>
+          <a href="adm.html">Home</a>
+          <a href="admlivros.html">Livros</a>
+          <a href="https://contate.me/bibliotec">Suporte</a>
+          <a href="admLivro.html">Painel ADM</a>
+          <a href="admcadastrar.html">Usuário</a>
+        </nav>
+      </div>
+      <div class="suporte">
+        <button><a href="admgp.html"><i class="fa-regular fa-comment"></i></a></button>
+      </div>
+    </div>
+  </header>
+  <div class="caixa" action=" " method="post">
+    <input class="pesquisa" type=text" id="busca" name="search" placeholder="pesquisar livros" onkeyup="search()">
+    <a class="butão" href=""><img src="livros/702988.png" width="30"></a>
+  </div>
+  <br><br>
+  <table class="li">
+        <tr>
+            <th colspan="4">Livros</th>
+        </tr>
+        <tr>
+            <td class="pesquisar"><img src="livros/1.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=BB9WDQAAQBAJ&oi=fnd&pg=PA11&dq=javascript+guia+do+programador&ots=VS0wzhUJgh&sig=X_zej40lv9dBn348ijal0TRFpFk#v=onepage&q=javascript%20guia%20do%20programador&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/2.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=Mk3sW0on7OAC&oi=fnd&pg=PR5&dq=html5+o%27reilly&ots=Co5CGdJWgo&sig=ZS04DUj_i8C1ammw5PM-TYEiUjI#v=onepage&q=html5%20o'reilly&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/download (1).jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=zWNyDgAAQBAJ&oi=fnd&pg=PR1&dq=javascript&ots=IBvgz4I5hQ&sig=whBUtubrC7YQ-MzW6iWxt4p5bTM#v=onepage&q=javascript&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/Captura de tela 2024-05-08 135443.png" width="170">
+              <button class="butão">Reservar</button> <a href="https://bibliotecadigital.faminas.edu.br/jspui/bitstream/123456789/125/1/LIVRO%20FAMINAS%20VIRTUAL%20-%20PORTUGUES.pdf"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="pesquisar">
+             <img src="livros/matematica.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=sK-tDwAAQBAJ&oi=fnd&pg=PA1&dq=matematica&ots=QL9KD-qsp1&sig=FCMOfl8XIxGJZXSkRbGzEckFG2c#v=onepage&q&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/mate.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=ojxnDwAAQBAJ&oi=fnd&pg=PP7&dq=matemática+financeira&ots=zXW4XYtB1v&sig=oqQlfKWaukXNScLjEr4gJQS4Kh0#v=onepage&q=matemática%20financeira&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/historia.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=zwKqEAAAQBAJ&oi=fnd&pg=PT5&dq=história+do+brasil&ots=WvntKPp1XD&sig=Je8bArmTOG_hX0j_9FXSbvjk9oM#v=onepage&q=história%20do%20brasil&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/ingles.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=RGIzk4TrJ4oC&oi=fnd&pg=PA11&dq=inglês&ots=_eBsdIufID&sig=sne92_L50a1ytbgZ1mGMoY_c4fc#v=onepage&q=inglês&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="pesquisar"><img src="livros/Captura de tela 2024-05-08 144058.png" width="170">
+              <button class="butão">Reservar</button> <a href="https://proedu.rnp.br/bitstream/handle/123456789/638/Ingles_Tecnico_PB_capa_2009_ISBN.pdf.pdf?sequence=2&isAllowed=y"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/arte.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=LHuZVkUgsP8C&oi=fnd&pg=PA197&dq=artes&ots=o5swdYzofM&sig=oO4egswi4pLVq1sgEi_6u-fyitc#v=onepage&q=artes&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/por.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=DyfwDwAAQBAJ&oi=fnd&pg=PT16&dq=programação&ots=gbFpBocG-x&sig=ZW2tnw86udKORdotxok_TTla798#v=onepage&q&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/Captura de tela 2024-05-08 145124.png" width="170">
+              <button class="butão">Reservar</button> <a href="https://d1wqtxts1xzle7.cloudfront.net/56542447/Apostila_desenho-libre.pdf?1526065741=&response-content-disposition=inline%3B+filename%3DDesenho_Tecnico_1_UNIVERSIDADE_FEDERAL_D.pdf&Expires=1715194259&Signature=GJRXvbsqZ~fnXI1N5VZ760oNnIIg9jZQDRRhhmGxZ33g9QaSNk2ZCw5kvFi1~2BKpfyj4xIFYmHgHsRI9Uq872QEm45O1CZAoV29LfVSsnfvN19HaMX9~pRh~MRt2Mz6f0XObUzwnHRSfRe6S7EiIh~6497320ptW3raAvgGthJyO0j9FZua6ttMZyO4pqwqR9E2MBkXuesH4SQuksiuS7-f9UA2U5MIgOBi1s5egYdYaoskS-BZuaEFnWrEYGv-uvRObxa~NOn7BA1sxammGgkGAGtN2Mtrz0euT~49nzZ23yn~OUf4dD5sep0FfWR6QILBxgEWS80mBvjZVejtdQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="pesquisar"><img src="livros/anomação.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=2R3n8hSXP1AC&oi=fnd&pg=PA7&dq=animação&ots=UtEwGVnAKt&sig=8kSsMEfZNbk-T6ZiYitg-0TeWV4#v=onepage&q=animação&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/bio.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=wMHxBwAAQBAJ&oi=fnd&pg=PR1&dq=biologia+molecular&ots=V4WnZQuw3I&sig=v0PMTD0m0V_OZGOdSJWADxlifDQ#v=onepage&q=biologia%20molecular&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/cont.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=biYTaAkdyBIC&oi=fnd&pg=PA9&dq=ciências+contábeis&ots=5bHz7JITpv&sig=LjC9x-oF0592_M9Cn1mgtKc3hKw#v=onepage&q=ciências%20contábeis&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/quantica.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=utSsDwAAQBAJ&oi=fnd&pg=PA11&dq=física+quântica&ots=QzVdH9GybT&sig=a0tXJmvX_hjdbY11sYxu7a4O5lA#v=onepage&q=física%20quântica&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="pesquisar"><img src="livros/ge.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=V5xaWPTL_IYC&oi=fnd&pg=PA11&dq=geografia&ots=5Mhs-17X-1&sig=B3-PSUwnka51kH0bAwZS7kl1bOY#v=onepage&q=geografia&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/mundo.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=JGuWT7mLVgUC&oi=fnd&pg=PA10&dq=planetas&ots=yXz21-2GXX&sig=TsilefBhty8NyqgBvskqQYvnk78#v=onepage&q=planetas&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/Captura de tela 2024-05-08 160330.png" width="170">
+              <button class="butão">Reservar</button> <a href="https://core.ac.uk/download/pdf/79136980.pdf"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+            <td class="pesquisar"><img src="livros/matt.jpeg" width="170">
+              <button class="butão">Reservar</button> <a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=uu1RDQAAQBAJ&oi=fnd&pg=PR1&dq=matemática+aplicada&ots=zHyMkiTSl4&sig=p5rO-KjDn66zPPhuDRCqyYagfEg#v=onepage&q=matemática%20aplicada&f=false"><button class="butão">Livro Online</button></a>
+              <button class="butão">Excluir</button>
+            </td>
+        </tr>
+  </table>
+</body>
+</html>

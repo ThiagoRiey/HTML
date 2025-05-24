@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.distancia{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: #8b0000;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo,.suporte{
+    width: 25%;
+}
+
+.logo img{
+    width: 140px;
+}
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color:aliceblue;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    transition: width 0.5s;
+
+}
+.menu nav a:hover::after{
+    width: 30px;
+}
+.suporte button{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-image: linear-gradient(45deg, none,#ffff);
+    border: none;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #8b0000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+table{
+    color:#8b0000;
+    padding-right: 120px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+td, th{
+    padding: 20px 75px;
+}
+.caixa{
+   position:absolute;
+   left: 50%;
+   transform: translate(-50%, 20%);
+   color: white;
+
+   height: 60px;
+   padding: 10px;
+   border-radius: 30px;
+   background-color: #8b0000;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center ;
+    
+}
+.pesquisa{
+    background: none;
+    border: 0;
+    outline: 0;
+
+    font-size: 20px;
+    color: white;
+}
+.butão{
+    
+    background-color: #8b0000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    height: 30px;
+    border-radius: 3px;
+}
+.butão:hover {
+    transform: scale(1.25);
+    background-color: #ff0676;
+}
+[data-tooltip] {
+    position: relative;
+    font-weight: bold;
+  }
+  
+  [data-tooltip]:after {
+    display: none;
+    position: absolute;
+    top: -5px;
+    padding: 5px;
+    border-radius: 3px;
+    left: calc(100% + 2px);
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: #0095ff;
+    color: White;
+  }
+  
+  [data-tooltip]:hover:after {
+    display: block;
+  }
