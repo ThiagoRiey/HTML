@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+    background-color: aqua;
+    color: blue;
+}
+#sessao-1{
+    text-align: center;
+    display: flexbox;
+    background-color: pink;
+}
+.mudar{
+    text-align: left;
+    color: green;
+}
+#sessao-2{
+    background-color: lightgray;
+    text-align: center;
+}
+.mudar1{
+    color: green;
+}
+h1{
+    color: red;
+    font-size: 25px;
+    font-family: fantasy;
+}
+h2{
+    color: purple;
+}
+#sessao-3{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 20px;
+}
